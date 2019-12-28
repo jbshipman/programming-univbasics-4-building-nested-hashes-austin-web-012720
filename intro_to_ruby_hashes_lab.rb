@@ -11,8 +11,7 @@ def monopoly_with_second_tier
   # complexity.
   hshStart = {
     railroads: {
-      pieces: 4, 
-      names: {}, 
+      pieces: 4,
       rent_in_dollars: {}
     }
   }
@@ -26,7 +25,12 @@ def monopoly_with_third_tier
   hshStart = {
     railroads: {
       pieces: 4, 
-      names: {}, 
+      names: {
+        name_one:
+        name_two:
+        name_three:
+        name_four:
+      }, 
       rent_in_dollars: {
         one_house: 4,
         two_house: 8,
